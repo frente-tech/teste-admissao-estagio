@@ -27,5 +27,3 @@ Nós precisamos da solução desse simples mas importante teste lógico que segu
 - Multiplos de 5 devem ser substituídos por Fizz
 - Multiplos de 3 devem ser substituídos por Buzz
 
-
-foi gerado um algoritmo que de primeiro momento solicita ao usuário que digite qualquer número entre 1 e 100 para saber no final se o número é divisível por 15, 5 e  3. Após o processo, o algoritmo roda mostrando a classificação de todos os números e seus respectivos divisores classificados entre: Fizz, Buzz e FizzBuzzz.
