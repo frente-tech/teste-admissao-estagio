@@ -28,37 +28,4 @@ Nós precisamos da solução desse simples mas importante teste lógico que segu
 - Multiplos de 3 devem ser substituídos por Buzz
 
 
-n1 = int(input('digite um número qualquer entre 1 e 100 e descubra se ele é ou náo divisível por 15:'))
-        
-if 1 <= n1 <= 100:
-            if n1 % 15 == 0:
-                print(f"{n1} é um múltiplo de 15.")
-            else:
-                print(f"{n1} não é um múltiplo de 15.")
-    
-n2 = int(input('digite outro número qualquer entre 1 e 100 e descubra se ele é ou não divisível por 5:'))
-if 1 <= n1 <= 100:
-            if n2 % 5 == 0:
-                print(f"{n2} é um múltiplo de 5.")
-            else:
-                print(f"{n2} não é um múltiplo de 5.")
-               
-n3 = int(input('digite outro número qualquer entre 1 e 100 e descubra se ele é ou não divisível por 3:'))
-if 1 <= n1 <= 100:
-            if n3 % 3 == 0:
-                print(f"{n3} é um múltiplo de 3.")
-            else:
-                print(f"{n3} não é um múltiplo de 3.")
-
-
-tds = input('digite enter e veja a seguir todos os números divisíveis por 3, 5 e 15 de 1 à 100 classificados entre: Fizz, Buzz, FizzBuzz e número reais')
-
-for i in range(1, 101):
-    if i % 15 == 0 :
-         print ('FizzBuzz')
-    elif i % 5 == 0: 
-        print ("Fizz")
-    elif i % 3 == 0:
-        print ('Buzz')
-    else:
-        print(i)
+foi gerado um algoritmo que de primeiro momento solicita ao usuário que digite qualquer número entre 1 e 100 para saber no final se o número é divisível por 15, 5 e  3. Após o processo, o algoritmo roda mostrando a classificação de todos os números e seus respectivos divisores classificados entre: Fizz, Buzz e FizzBuzzz.
